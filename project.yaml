@@ -6,8 +6,10 @@ basic:
         development: ''
     breakpoints:
         - 640
+        - 720
         - 960
         - 1200
+        - 1440
     pages:
         - /
         - /contact
