@@ -17,9 +17,9 @@ basic:
     monitoring:
         days: {  }
         type: daily
-        schedule_time: '01:30 PM'
+        schedule_time: '12:30 AM'
         schedule_time_zone: Europe/London
-        compare_with: baseline
+        compare_with: last-production
         compare_with_fresh: production
 advanced:
     mask: ''
