@@ -1,17 +1,18 @@
 basic:
-    name: 'https://bbc.com'
+    name: 'https://bbc.com test'
     environments:
         production: 'https://bbc.com'
         staging: ''
         development: ''
     breakpoints:
+        - 320
         - 640
+        - 720
         - 1024
         - 1200
     pages:
         - /
         - /news
-        - /sport
         - /business
         - /innovation
     monitoring:
