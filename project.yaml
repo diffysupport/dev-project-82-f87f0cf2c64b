@@ -1,55 +1,19 @@
 basic:
-    name: 'https://partners-cap.com'
+    name: 'https://bbc.com'
     environments:
-        production: 'https://partners-cap.com'
+        production: 'https://bbc.com'
         staging: ''
         development: ''
     breakpoints:
         - 640
-        - 720
-        - 960
+        - 1024
         - 1200
-        - 1440
     pages:
         - /
-        - /contact
-        - /about-us
-        - /about-us/our-history
-        - /our-team/meet-the-board
-        - /our-team/meet-the-shareholders
-        - /our-team
-        - /who-we-work-with
-        - /research
-        - /research/investment-philosophy
-        - /about-us/careers
-        - /about-us/diversity-equity-and-inclusion
-        - /press-archive
-        - /who-we-work-with/endowments-foundations
-        - /who-we-work-with/private-clients
-        - /who-we-work-with/institutions
-        - /ocio-solution
-        - /private-markets-mandates
-        - /investment-approach
-        - /investments/asset-classes/liquid-credit
-        - /investments/asset-classes/private-debt
-        - /investments/asset-classes/uncorrelated-alternatives
-        - /investments/asset-classes/absolute-return
-        - /investments/asset-classes/public-equities
-        - /investments/asset-classes/private-equity
-        - /investments/asset-classes/real-estate
-        - /investments/asset-classes/co-investments
-        - /investment-approach/sustainable-investing
-        - /asset-managers
-        - /asset-managers/manager-due-diligence
-        - /partners-capital-san-francisco
-        - /partners-capital-new-york
-        - /partners-capital-boston
-        - /partners-capital-london
-        - /partners-capital-paris
-        - /partners-capital-asia-pacific
-        - /regulatory-disclosures
-        - /mifid-ii-best-execution
-        - /form-adv
+        - /news
+        - /sport
+        - /business
+        - /innovation
     monitoring:
         days: {  }
         type: daily
@@ -61,7 +25,7 @@ advanced:
     mask: ''
     remove: ''
     isolate: ''
-    delay: 15
+    delay: 0
     scroll: true
     headers:
         - { value: '', header: '' }
@@ -70,6 +34,9 @@ advanced:
     custom_css: ''
     mock_content:
         - { type: title, selector: '' }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
     login:
         type: none
         click_element: false
@@ -87,3 +54,5 @@ advanced:
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
+proxy: false
+type: single_site
